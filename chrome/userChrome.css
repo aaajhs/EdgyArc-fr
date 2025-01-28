@@ -16,3 +16,9 @@
 
 /* Import custom stylesheet instead of modifying Edge-Frfox theme files. */
 @import url("custom.css");
+
+/* Removes drag space on right of navbar and tabsbar */
+.titlebar-spacer[type="pre-tabs"],
+.titlebar-spacer[type="post-tabs"] {
+  width: 0px !important;
+}
